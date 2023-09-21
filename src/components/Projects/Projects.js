@@ -96,7 +96,7 @@ function Projects() {
               isBlog={false}
               title="Stock Market Price Predictor"
               description="Trained a Stock Market Price Predictor based on the LSTM algorithm using 'Apple' dataset with Keras and tensorflow. The algorithm sucessfully predicted the price and in this, we created timesteps of 100 days and compared the accuracy with test data and also predicted the stock price for thr future 30 days."
-              ghLink="https://github.com/jsharma3182002/Stock-Market-Prediction"
+              ghLink="https://github.com/jatin-shrm/Stock-Market-Prediction"
               // demoLink="https://blogs.soumya-jit.tech/"      <--------Please include a demo link here 
             />
           </Col>
@@ -106,7 +106,7 @@ function Projects() {
               isBlog={false}
               title="Movie Recommendation System"
               description="Created a Recommendation system for movies by the TMDB dataset. It uses cosine similarity for recommending movies with the help of tags. In this, tags are created by all the tag names of the movie, and after we use them like a vector."                           
-              ghLink="https://github.com/jsharma3182002/Movie_recommender-system/tree/main"
+              ghLink="https://github.com/jatin-shrm/Movie_recommender-system"
               // demoLink="https://blogs.soumya-jit.tech/"      <--------Please include a demo link here 
             />
           </Col>
