@@ -118,7 +118,7 @@ function NavBar() {
 
             <Nav.Item className="fork-btn">
               <Button
-                href="https://github.com/jsharma3182002"
+                href="https://github.com/jatin-shrm"
                 target="_blank"
                 className="fork-btn-inner"
               >

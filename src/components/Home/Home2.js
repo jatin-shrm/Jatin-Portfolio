@@ -79,7 +79,7 @@ function Home2() {
               </li>
               <li className="social-icons">
                 <a
-                  href="https://github.com/jsharma3182002"
+                  href="https://github.com/jatin-shrm"
                   target="_blank"
                   rel="noreferrer"
                   className="icon-colour  home-social-icons"
