@@ -1,6 +1,6 @@
 # My Personal Portfolio
 
-Welcome to my personal portfolio repository! This is where I showcase my work, projects, and provide information about myself. Feel free to explore and learn more about my skills and experiences.
+Welcome to my personal portfolio repository! This is where I showcase my work, and projects, and provide information about myself. Feel free to explore and learn more about my skills and experiences.
 
 ## Table of Contents
 
@@ -12,12 +12,8 @@ Welcome to my personal portfolio repository! This is where I showcase my work, p
 
 ## About Me
 
-I am [Your Name], a passionate [Your Profession] based in [Your Location]. I have a strong background in [Your Areas of Expertise], and I am dedicated to [Your Mission or Goals]. This portfolio is a reflection of my journey in the world of [Your Field], and I hope you find my work inspiring and informative.
-
-### Education
-
-- [Degree] in [Field] from [University], [Year]
-- [Additional Degrees or Certifications]
+I am Jatin Sharma from Jaipur (Raj.), India. I am a final year student pursuing a B.Tech (Bachelor of Technology) in Computer Science and Engineering from ICFAI University, Jaipur.
+Apart from coding, there are some other activities that I love to do!
 
 ### Experience
 
