@@ -4,7 +4,8 @@ Welcome to my personal portfolio repository! This is where I showcase my work, a
 
 ## Table of Contents
 
-- [About Me](#about-me)
+- [About Me](#https://jatin-sharma-portfolio.vercel.app/about)
+- [About Me](#)
 - [Projects](#projects)
 - [Skills](#skills)
 - [Contact](#contact)
