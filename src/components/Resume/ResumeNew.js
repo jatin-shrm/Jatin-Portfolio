@@ -2,7 +2,6 @@ import React, { useState, useEffect } from "react";
 import { Container, Row } from "react-bootstrap";
 import Button from "react-bootstrap/Button";
 import Particle from "../Particle";
-// import pdf from "../../Assets/../Assets/Jatin_Sharma_Resume_10-09-2023-10-20-55.pdf";
 import pdf from "../../Assets/../Assets/Jatin_Sharma_Resume.pdf";
 import { AiOutlineDownload } from "react-icons/ai";
 import { Document, Page, pdfjs } from "react-pdf";
@@ -12,18 +11,17 @@ pdfjs.GlobalWorkerOptions.workerSrc = `//cdnjs.cloudflare.com/ajax/libs/pdf.js/$
 function ResumeNew() {
   const [width, setWidth] = useState(1200);
   const [numPages, setNumPages] = useState(null);
-    const [currentPage, setCurrentPage] = useState(1);
+  const [currentPage, setCurrentPage] = useState(1);
 
   const onDocLoad = ({ numPages }) => {
-    setNumPages(numPages)
-
-  }
+    setNumPages(numPages);
+  };
 
   useEffect(() => {
     setWidth(window.innerWidth);
   }, []);
 
-    const goToNextPage = () => {
+  const goToNextPage = () => {
     if (currentPage < numPages) {
       setCurrentPage(currentPage + 1);
     }
@@ -34,7 +32,7 @@ function ResumeNew() {
       setCurrentPage(currentPage - 1);
     }
   };
-  
+
   return (
     <div>
       <Container fluid className="resume-section">
@@ -52,11 +50,25 @@ function ResumeNew() {
         </Row>
 
         <Row className="resume">
-            <Document file={pdf} className="d-flex justify-content-center" onLoadSuccess={onDocLoad}>
-            <Page key={`page_${currentPage}`} pageNumber={currentPage} scale={width > 786 ? 1.7 : 0.6} />
+          <Document
+            file={pdf}
+            className="d-flex justify-content-center"
+            onLoadSuccess={onDocLoad}
+          >
+            <Page
+              key={`page_${currentPage}`}
+              pageNumber={currentPage}
+              scale={width > 786 ? 1.7 : 0.6}
+            />
           </Document>
         </Row>
-         <Row style={{ justifyContent: "center", position: "relative", marginBottom: '2.5rem' }}>
+        <Row
+          style={{
+            justifyContent: "center",
+            position: "relative",
+            marginBottom: "2.5rem",
+          }}
+        >
           <Button
             variant="primary"
             onClick={goToPrevPage}
@@ -74,7 +86,6 @@ function ResumeNew() {
             Next Page
           </Button>
         </Row>
-
 
         <Row style={{ justifyContent: "center", position: "relative" }}>
           <Button
