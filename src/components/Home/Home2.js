@@ -21,22 +21,19 @@ function Home2() {
               LET ME <span className="purple"> INTRODUCE </span> MYSELF
             </h1>
             <p className="home-about-body">
-              I fell in love with data and programming and I have at least learnt
-              something, I think… 🤷‍♂️
+              I fell in love with programming when I was in my graduatiob and I
+              have at least learnt something, I think… 🤷‍♂️
               <br />
               <br />I am fluent in classics like
               <i>
-                <b className="purple"> Python, C++, Probability and Statistics, Machine Learning and Data Science. </b>
+                <b className="purple"> Python, React, Javascript, C++. </b>
               </i>
               <br />
               <br />
               My field of Interest's are building new &nbsp;
               <i>
-                <b className="purple">AI/ML Applications and Products </b> and
-                also in areas related to{" "}
-                <b className="purple">
-                  Data Science.
-                </b>
+                <b className="purple">Applications and Products </b> and also in
+                areas related to <b className="purple">Software Development.</b>
               </i>
               <br />
               <br />
@@ -97,7 +94,7 @@ function Home2() {
                   <AiFillPhone />
                 </a>
               </li>
-              
+
               {/* <li className="social-icons">
                 <a
                   href="https://www.instagram.com/soumyajit4419"
