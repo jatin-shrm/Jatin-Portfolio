@@ -21,12 +21,12 @@ function Home2() {
               LET ME <span className="purple"> INTRODUCE </span> MYSELF
             </h1>
             <p className="home-about-body">
-              I fell in love with programming when I was in my graduatiob and I
+              I fell in love with programming when I was in my graduation and I
               have at least learnt something, I think… 🤷‍♂️
               <br />
               <br />I am fluent in classics like
               <i>
-                <b className="purple"> Python, React, Javascript, C++. </b>
+                <b className="purple"> Python, SQL, PowerBI, C++. </b>
               </i>
               <br />
               <br />
@@ -66,7 +66,7 @@ function Home2() {
             <ul className="home-about-social-links">
               <li className="social-icons">
                 <a
-                  href="https://bit.ly/3z9u0lq"
+                  href="https://www.linkedin.com/in/ashutosh-didwania-685a52230/"
                   target="_blank"
                   rel="noreferrer"
                   className="icon-colour  home-social-icons"
@@ -76,7 +76,7 @@ function Home2() {
               </li>
               <li className="social-icons">
                 <a
-                  href="https://github.com/jatin-shrm"
+                  href="https://github.com/ashutoshdidwania"
                   target="_blank"
                   rel="noreferrer"
                   className="icon-colour  home-social-icons"
@@ -86,7 +86,7 @@ function Home2() {
               </li>
               <li className="social-icons">
                 <a
-                  href={`tel:${7413031508}`}
+                  href={`tel:${7877968938}`}
                   target="_blank"
                   rel="noreferrer"
                   className="icon-colour  home-social-icons"
