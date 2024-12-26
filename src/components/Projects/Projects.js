@@ -113,7 +113,7 @@ function Projects() {
             />
           </Col> */}
           {/* new code */}
-          <Col md={4} className="project-card">
+          {/* <Col md={4} className="project-card">
             <ProjectCard
               imgPath={stock}
               isBlog={false}
@@ -132,7 +132,7 @@ function Projects() {
               ghLink="https://github.com/jatin-shrm/Movie_recommender-system"
               // demoLink="https://blogs.soumya-jit.tech/"      <--------Please include a demo link here
             />
-          </Col>
+          </Col> */}
         </Row>
       </Container>
     </Container>
