@@ -8,11 +8,11 @@ function AboutCard() {
       <Card.Body>
         <blockquote className="blockquote mb-0">
           <p style={{ textAlign: "justify" }}>
-            Hi Everyone, I am <span className="purple">Jatin Sharma </span>
-            from <span className="purple"> Jaipur (Raj.), India.</span>
+            Hi Everyone, I am <span className="purple">Ashutosh Didwania </span>
+            from <span className="purple"> Udaipur (Raj.), India.</span>
             <br /> I am a final year student pursuing an BTech (Bachelor of
-            Technology) in Computer Science and Engeneering at ICFAI University,
-            Jaipur.
+            Technology) in Computer Science and Engeneering at MPUAT University,
+            Udaipur.
             {/* <br />
             Additionally, I am currently employed as a software developer at
             Juspay.
@@ -36,7 +36,7 @@ function AboutCard() {
             "Any fool can write code that a computer can understand. Good
             programmers write code that humans can understand"{" "}
           </p>
-          <footer className="blockquote-footer">Jatin</footer>
+          <footer className="blockquote-footer">Ashutosh</footer>
         </blockquote>
       </Card.Body>
     </Card>

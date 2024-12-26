@@ -17,9 +17,9 @@ function Footer() {
           <ul className="footer-icons">
             <li className="social-icons">
               <a
-                href="https://bit.ly/3z9u0lq"
+                href="https://www.linkedin.com/in/ashutosh-didwania-685a52230/"
                 style={{ color: "white" }}
-                target="_blank" 
+                target="_blank"
                 rel="noopener noreferrer"
               >
                 {/* <FaLinkedinIn /> */}
@@ -27,15 +27,15 @@ function Footer() {
             </li>
             <li className="social-icons">
               <a
-                href="https://github.com/jatin-shrm"
+                href="https://github.com/ashutoshdidwania"
                 style={{ color: "white" }}
-                target="_blank" 
+                target="_blank"
                 rel="noopener noreferrer"
               >
                 {/* <AiFillGithub /> */}
               </a>
             </li>
-            
+
             {/* <li className="social-icons">
               <a
                 href="https://twitter.com/Soumyajit4419"
@@ -46,7 +46,7 @@ function Footer() {
                 <AiOutlineTwitter />
               </a>
             </li> */}
-            
+
             {/* <li className="social-icons">
               <a
                 href="https://www.instagram.com/soumyajit4419"
