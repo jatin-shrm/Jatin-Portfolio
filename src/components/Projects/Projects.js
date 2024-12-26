@@ -10,6 +10,8 @@ import Particle from "../Particle";
 // import bitsOfCode from "../../Assets/Projects/blog.png";
 import stock from "../../Assets/Projects/stock.png";
 import movie from "../../Assets/Projects/movie.png";
+import d1 from "../../Assets/Projects/desktop health.jpeg";
+import d2 from "../../Assets/Projects/desktop voice.jpeg";
 
 function Projects() {
   return (
@@ -23,6 +25,27 @@ function Projects() {
           Here are a few projects I've worked on recently.
         </p>
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={d1}
+              isBlog={false}
+              title="AI Smart Healthcare"
+              description="Artificial intelligence (AI) in healthcare is the use of machine learning (ML) to assist and, ideally, improve the patient experience and hospital operations, and expenses."
+              ghLink="https://github.com/ashutoshdidwania/healthcare"
+              // demoLink="https://chatify-49.web.app/"
+            />
+          </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={d2}
+              isBlog={false}
+              title="Desktop Voice Assistant"
+              description="This Python project showcases my proficiency in developing a desktop voice assistant. I created a voice-controlled interface enabling users to interact with their computer through spoken commands."
+              ghLink="https://github.com/ashutoshdidwania/desktop_voice_assistant"
+              // demoLink="https://blogs.soumya-jit.tech/"
+            />
+          </Col>
           {/* <Col md={4} className="project-card">
             <ProjectCard
               imgPath={chatify}
@@ -97,7 +120,7 @@ function Projects() {
               title="Stock Market Price Predictor"
               description="Trained a Stock Market Price Predictor based on the LSTM algorithm using 'Apple' dataset with Keras and tensorflow. The algorithm sucessfully predicted the price and in this, we created timesteps of 100 days and compared the accuracy with test data and also predicted the stock price for thr future 30 days."
               ghLink="https://github.com/jatin-shrm/Stock-Market-Prediction"
-              // demoLink="https://blogs.soumya-jit.tech/"      <--------Please include a demo link here 
+              // demoLink="https://blogs.soumya-jit.tech/"      <--------Please include a demo link here
             />
           </Col>
           <Col md={4} className="project-card">
@@ -105,9 +128,9 @@ function Projects() {
               imgPath={movie}
               isBlog={false}
               title="Movie Recommendation System"
-              description="Created a Recommendation system for movies by the TMDB dataset. It uses cosine similarity for recommending movies with the help of tags. In this, tags are created by all the tag names of the movie, and after we use them like a vector."                           
+              description="Created a Recommendation system for movies by the TMDB dataset. It uses cosine similarity for recommending movies with the help of tags. In this, tags are created by all the tag names of the movie, and after we use them like a vector."
               ghLink="https://github.com/jatin-shrm/Movie_recommender-system"
-              // demoLink="https://blogs.soumya-jit.tech/"      <--------Please include a demo link here 
+              // demoLink="https://blogs.soumya-jit.tech/"      <--------Please include a demo link here
             />
           </Col>
         </Row>
